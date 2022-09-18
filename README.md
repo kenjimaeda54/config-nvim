@@ -16,8 +16,8 @@
 - Para salvar um arquivo C-s
 - Para voltar um estado C-z
 - Para sair C-q
-- Para abrir o [nerdTree](https://github.com/preservim/nerdtree) C-n
-
+- Para abrir o [nerdTree](https://github.com/preservim/nerdtree) C-n, caso deseja encontar arquivo tecla <leader>(normalmente e o \) + tecla n
+- Para abrir o [telescope](https://github.com/nvim-telescope/telescope.nvim),se deseja encontrar arquivos tecla <Leader>(normalmente \)  ou C-p para abrir o buffer
 
 ## Creditos
 - Para gerar um front end agradável [neovide](https://neovide.dev/)
