@@ -3,13 +3,20 @@
 
 
 ## Uso
-- Clonar o repositorio em .config/nvim
+- Clonar o repositório em .config/nvim
 - Para instalar os pacotes do lua usei o (packer manager)[https://github.com/wbthomason/packer.nvim]
-- Apos packamanger estiver instalado, no init.lua usar comando source % e apos isto ::PackerInstall
-- Para instalar os servidores de gramatica do editor de texto vai ate o plugin lsp-config.lua e utiliza o comando ::LspInstallInfo
-- Para typescript  o angulars e util,com enter voce estende o pacote para verificar oque sera instalado
-- Para verificar as gratimaticas utilizei [Alex](https://github.com/dense-analysis/ale), precisa apenas seguir orietancao como instalar com pack install na epoca instalei diretamenteo clonando repositorio
+- Apos packamanger instalado, no init.lua usar comando source % e apos isto ::PackerInstall
+- Para instalar os servidores de gramática do editor de texto vai até  /plugins e busca lsp-config.lua 
+-  Utiliza o comando ::LspInstallInfo para encontrar os servidores e pressione i para instalar, caso deseja estender para verificar os pacotes enter
+- Para typescript  o angulars e útil
+- Para gerar erros de gramáticas utilizei [Alex](https://github.com/dense-analysis/ale), precisa apenas seguir orientação como instalar com  package management 
 
+
+## Comandos
+- Para salvar um arquivo C-s
+- Para voltar um estado C-z
+- Para sair C-q
+- Para abrir o [nerdTree](https://github.com/preservim/nerdtree) C-n
 
 
 ## Creditos
