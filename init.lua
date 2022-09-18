@@ -1,0 +1,15 @@
+require 'keymaps'
+require 'settings'
+
+
+require 'plugins.paq'
+require 'plugins.dashboard'
+require 'plugins.telescope'
+require 'plugins.treesitter'
+require 'plugins.tree'
+require 'plugins.lsp-config'
+require 'plugins.cmp'
+require 'plugins.autopairs'
+require 'plugins.gitsigns'
+require 'plugins.feline'
+require 'plugins.bufferline'
