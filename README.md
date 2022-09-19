@@ -10,6 +10,7 @@
 -  Utiliza o comando ::LspInstallInfo para encontrar os servidores e pressione i para instalar, caso deseja estender para verificar os pacotes enter
 - Para typescript  o angulars e útil
 - Para gerar erros de gramáticas utilizei [Alex](https://github.com/dense-analysis/ale), precisa apenas seguir orientação como instalar com  package management 
+- Para habilitar os highlight ustilia (TSInstall)[https://github.com/nvim-treesitter/nvim-treesitter] e o server que deseja utilizar
 
 
 ## Comandos
