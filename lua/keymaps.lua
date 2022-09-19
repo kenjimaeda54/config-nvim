@@ -5,7 +5,7 @@ local ns = { noremap = true, silent = true }
 set("n", ";", ":", { noremap = true })
 
 -- Terminal
-set("t", "<Esc>", "<C-\\><C-n><C-w><C-w>", ns)
+set("n", "C-<Leader>", ":below terminal<CR>", ns)
 
 -- Clean Search
 set("n", "<Leader><Space>", ":let @/=''<CR>", ns)
@@ -44,8 +44,6 @@ set("v", "<Leader>cc", ":Commentary<CR>", ns)
 set("n", "<C-s>", ":write<CR>",ns)
 set("n", "<C-z>", ":u<CR>",ns)
 set("n", "<C-q>", ":quit<CR>",ns)
-
-
 
 
 

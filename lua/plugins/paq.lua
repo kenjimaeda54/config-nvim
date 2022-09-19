@@ -48,5 +48,8 @@ require('paq') {
   -- Dart/Flutter
   'dart-lang/dart-vim-plugin';
   'akinsho/flutter-tools.nvim';
-}
 
+  -- Formatter
+  'jose-elias-alvarez/null-ls.nvim';
+
+}
