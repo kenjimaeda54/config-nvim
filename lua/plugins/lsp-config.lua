@@ -1,10 +1,28 @@
-local capabilities = require'cmp_nvim_lsp'.update_capabilities(
+local capabilities = require 'cmp_nvim_lsp'.update_capabilities(
   vim.lsp.protocol.make_client_capabilities()
 )
+
+local document_hightlight_group = vim.api.nvim_create_augroup(
+  'LspDocumentHighlight', { clear = true }
+)
+
+vim.api.nvim_create_autocmd("CursorHold", {
+  buffer = 0,
+  callback = vim.lsp.buf.document_highlight,
+  group = document_hightlight_group,
+})
+
+vim.api.nvim_create_autocmd("CursorMoved", {
+  buffer = 0,
+  callback = vim.lsp.buf.clear_references,
+  group = document_hightlight_group,
+})
+
 
 local ns = { noremap = true, silent = true }
 local on_attach = function(_, bufnr)
   local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
+
   local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
 
   buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
@@ -28,7 +46,7 @@ end
 
 local lsp_installer = require("nvim-lsp-installer")
 lsp_installer.on_server_ready(
-  function (server)
+  function(server)
     local opts = {
       on_attach = on_attach,
       capabilities = capabilities,
@@ -39,10 +57,9 @@ lsp_installer.on_server_ready(
 )
 
 -- Flutter
-require("flutter-tools").setup{
+require("flutter-tools").setup {
   lsp = {
     on_attach = on_attach,
     capabilities = capabilities
   },
 }
-

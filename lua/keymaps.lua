@@ -40,12 +40,7 @@ set("n", "<C-p>", ":Telescope buffers<CR>", ns)
 set("n", "<Leader>cc", ":Commentary<CR>", ns)
 set("v", "<Leader>cc", ":Commentary<CR>", ns)
 
--- common 
-set("n", "<C-s>", ":write<CR>",ns)
-set("n", "<C-z>", ":u<CR>",ns)
-set("n", "<C-q>", ":quit<CR>",ns)
-
-
-
-
-
+-- common
+set("n", "<C-s>", ":write<CR>", ns)
+set("n", "<C-z>", ":u<CR>", ns)
+set("n", "<C-q>", ":quit<CR>", ns)
