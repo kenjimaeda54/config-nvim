@@ -21,6 +21,10 @@ require('paq') {
   'hrsh7th/cmp-path';
   'hrsh7th/cmp-buffer';
   'saadparwaiz1/cmp_luasnip';
+  'folke/lsp-colors.nvim';
+  'glepnir/lspsaga.nvim';
+  'jose-elias-alvarez/null-ls.nvim';
+
 
   -- Snipets
   'L3MON4D3/LuaSnip';
@@ -49,7 +53,19 @@ require('paq') {
   'dart-lang/dart-vim-plugin';
   'akinsho/flutter-tools.nvim';
 
-  -- Formatter
-  'jose-elias-alvarez/null-ls.nvim';
+  --Lspkind
+  'onsails/lspkind.nvim';
+
+  -- NeoSolarized
+  'overcache/NeoSolarized';
+
+  -- Zen Mode
+  'folke/zen-mode.nvim';
+ 
+  -- Prettier
+  'MunifTanjim/prettier.nvim';
+
+  -- Theme
+  'folke/tokyonight.nvim';
 
 }

@@ -4,7 +4,7 @@ local cmd = vim.cmd
 
 -- Leader
 g.mapleader = ','
-
+        
 -- General
 opt.compatible = false
 opt.mouse = 'a'
@@ -15,9 +15,8 @@ opt.history = 100
 opt.lazyredraw = true
 opt.synmaxcol = 240
 
--- Theme
+
 opt.termguicolors = true
-cmd [[colorscheme dracula]]
 
 -- Editor
 opt.number = true
@@ -37,3 +36,8 @@ opt.shiftwidth = 2
 opt.tabstop = 2
 opt.smartindent = true
 opt.list = true
+opt.cursorline = true
+opt.winblend = 0
+opt.wildoptions = 'pum'
+opt.pumblend = 5
+opt.background = 'dark'
