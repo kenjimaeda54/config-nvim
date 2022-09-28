@@ -12,6 +12,14 @@
 - Para gerar erros de gramáticas utilizei [Alex](https://github.com/dense-analysis/ale), precisa apenas seguir orientação como instalar com  package management 
 - Para habilitar os highlight ustilia (TSInstall)[https://github.com/nvim-treesitter/nvim-treesitter] e o server que deseja utilizar
 
+## Pacote
+- brew install lua-language-server
+- npm install -g typescript typescript-language-server
+- npm i -g @tailwindcss/language-server
+- npm install -g @fsouza/prettierd
+- npm install -g eslint_d
+- npm i -g prettier 
+- 
 
 ## Comandos
 - Para salvar um arquivo C-s
