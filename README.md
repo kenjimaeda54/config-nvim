@@ -34,3 +34,4 @@
 - Artigo referencia usei para configurar [nvim](https://dev.to/enrsaid/neovim-initlua-built-in-lsp-e-mais-3695)
 - Repositório [referencia](https://github.com/enriquesaid/nvim-config)
 - Setup [Neovim M2 Macbock](https://www.youtube.com/watch?v=ajmK0ZNcM4Q)
+- Github [dotfiles](https://github.com/craftzdog/dotfiles-public)
