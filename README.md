@@ -12,6 +12,14 @@
 - Para gerar erros de gramáticas utilizei [Alex](https://github.com/dense-analysis/ale), precisa apenas seguir orientação como instalar com  package management 
 - Para habilitar os highlight ustilia (TSInstall)[https://github.com/nvim-treesitter/nvim-treesitter] e o server que deseja utilizar
 
+## Pacote
+- brew install lua-language-server
+- npm install -g typescript typescript-language-server
+- npm i -g @tailwindcss/language-server
+- npm install -g @fsouza/prettierd
+- npm install -g eslint_d
+- npm i -g prettier 
+
 
 ## Comandos
 - Para salvar um arquivo C-s
@@ -25,3 +33,5 @@
 - Para iniciar o projeto com neovide: Neovide e o caminho, não utilizar nvim
 - Artigo referencia usei para configurar [nvim](https://dev.to/enrsaid/neovim-initlua-built-in-lsp-e-mais-3695)
 - Repositório [referencia](https://github.com/enriquesaid/nvim-config)
+- Setup [Neovim M2 Macbock](https://www.youtube.com/watch?v=ajmK0ZNcM4Q)
+- Github [dotfiles](https://github.com/craftzdog/dotfiles-public)
