@@ -24,7 +24,11 @@ require('paq') {
   'folke/lsp-colors.nvim';
   'glepnir/lspsaga.nvim';
   'jose-elias-alvarez/null-ls.nvim';
-
+  'williamboman/mason.nvim';
+  'L3MON4D3/LuaSnip';
+  'glepnir/lspsaga.nvim';
+  'williamboman/mason-lspconfig.nvim';
+  'neovim/nvim-lspconfig';
 
   -- Snipets
   'L3MON4D3/LuaSnip';
